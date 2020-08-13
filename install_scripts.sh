@@ -1,6 +1,5 @@
 #!/bin/bash
-#
-# Used for fresh installs of my Linux system.
+# Used for fresh installs of a Linux system.
 
 INSTALLER_DIR=''
 

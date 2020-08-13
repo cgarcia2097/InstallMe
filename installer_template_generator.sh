@@ -34,3 +34,7 @@ do
     chmod +x $files
     mv $files $INSTALLER_DIR
 done
+
+# End of template generation
+echo "Finished template generation on $(date)"
+exit 0
