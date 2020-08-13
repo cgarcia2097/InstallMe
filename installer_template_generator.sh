@@ -1,7 +1,8 @@
 #!/bin/bash
-# Generates small templates for the installers to specified directory
+# Generates small templates for the installers to a directory
 
 NAME="{NAME}"
+DATE="{DATE}"
 TEMPLATE="./installer_template.txt"
 LIST="./installer_list.txt"
 INSTALLER_DIR=''
@@ -15,7 +16,8 @@ do
     touch "${LOWER}_installer.sh"                    # Create file
     FILE="${LOWER}_installer.sh"
     cat $TEMPLATE >> $FILE                           # Copy template over to new file
-    sed -i "s/$NAME/${var}/" $FILE                   # Replace the template words with argument
+    sed -i "s/$NAME/${var}/" $FILE                   
+    sed -i "s/$DATE/$(date)/" $FILE                  
 done < $LIST
 
 # Create directory for the installer files

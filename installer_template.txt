@@ -1,5 +1,5 @@
 #!/bin/bash
-# Generated at {TIME}
+# Generated at {DATE}
 # {NAME} installer using the instructions here: [Add link here]
 
 # Prompt user about installation start
@@ -11,4 +11,4 @@ echo "Installing {NAME}..."
 
 # Prompt user about end of installation
 echo "{NAME} installation finished at $(date)"
-exit
+exit 0
