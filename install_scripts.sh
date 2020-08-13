@@ -10,12 +10,6 @@ if (($EUID != 0)); then
     SUDO='sudo'
 fi
 
-# Update and upgrade system
-$SUDO apt update && $SUDO apt full-upgrade
-
-# Create bin directory if it doens't already exist
-mkdir $HOME/bin
-
 # Iterate through each install script stored in 
 for file in $INSTALLER_DIR/*_installer.sh
 do
