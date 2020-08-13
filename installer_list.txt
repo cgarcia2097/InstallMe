@@ -1,0 +1,15 @@
+KiCAD
+VSCode
+Discord
+Wireshark
+Chrome
+FreeCAD
+Postman
+Deluge
+Quassel
+Wine
+Steam
+Nvidia
+GIMP
+Inkscape
+Blender

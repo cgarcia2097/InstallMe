@@ -1,0 +1,14 @@
+#!/bin/bash
+# Generated at {TIME}
+# {NAME} installer using the instructions here: [Add link here]
+
+# Prompt user about installation start
+echo "Installing {NAME}..."
+
+# TODO: Implement the {NAME} installer here
+
+# OPTIONAL: Add desktop entry for {NAME} here. Useful for non-APT/tar/zip installs
+
+# Prompt user about end of installation
+echo "{NAME} installation finished at $(date)"
+exit
