@@ -7,7 +7,7 @@ The *template generator* and the *install script* can be run as seperate program
 ## Workflow
 1. Populate `example_list.txt` with possible candidate programs
 2. Create install template `example_template.txt` with the desired install template
-3. Run `template_genrator.sh` to generate the templates
+3. Run `template_generator.sh` to generate the templates
 4. Populate each install template with the appropriate commands to implement the install script
 5. Execute all the install scripts with `install_scripts.sh`
 
