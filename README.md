@@ -17,3 +17,51 @@ Installer template generator
 
 Automated installer script
 - `./install_scripts.sh [DIRECTORY]`
+
+## Examples
+
+- **List**: `example_list.txt` shows an example format creating a list for template generation. Here's a snippet:
+
+```
+KiCAD
+VSCode
+Discord
+Wireshark
+Chrome
+FreeCAD
+...
+```
+
+- **Template**: `example_template.txt` shows an example template used for template generation. The script uses the `{DATE}` and `{NAME}` tags in the template generation
+
+``` 
+#!/bin/bash
+# Generated at {DATE}
+# {NAME} installer using the instructions here: {LINK}
+
+# Prompt user about installation start
+echo "Installing {NAME}..."
+...
+```
+The resulting installer scripts will look like this (for example, with the KiCAD installer `kicad_installer.sh`)
+
+```
+#!/bin/bash
+# Generated at Thu 13 Aug 2020 06:16:49 PM EDT
+# KiCAD installer using the instructions here: {LINK}
+
+# Prompt user about installation start
+echo "Installing KiCAD..."
+...
+```
+
+- **Commands**
+  - *Template generator*: 
+
+    ``./template_generator.sh ./installers ./example_list.txt ./example_template.txt``
+  - *Automated installer script*:
+
+    `./install_scripts.sh ./installers/`
+
+## Credits
+- Charles Garcia (@cgarcia2097)
