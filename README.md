@@ -1,4 +1,4 @@
-# Discount Ninite 
+# InstallMe
 
 These set of scripts allow the user to generate a set of installer templates for a typical Linux system, as well as automate a set of scripts once all the install scripts have been implemented. Useful for fresh installs of a Linux system once implemented properly
 
