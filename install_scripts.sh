@@ -82,5 +82,5 @@ done
 
 # End of installation
 MESSAGE="Finished installation. Enjoy!!!"
-echo $MESSAGE
+record2Log
 exit 0
