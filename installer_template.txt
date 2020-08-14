@@ -1,6 +1,6 @@
 #!/bin/bash
 # Generated at {DATE}
-# {NAME} installer using the instructions here: [Add link here]
+# {NAME} installer using the instructions here: {LINK}}
 
 # Prompt user about installation start
 echo "Installing {NAME}..."
