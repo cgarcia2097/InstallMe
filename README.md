@@ -1,6 +1,6 @@
 # Discount Ninite 
 
-These set of scripts allow the user to generate a set of installer templates for a typical Linux system, as well as execute a set of scripts once all the install scripts have been implemented. Useful for fresh installs of a Linux system once implemented properly
+These set of scripts allow the user to generate a set of installer templates for a typical Linux system, as well as automate a set of scripts once all the install scripts have been implemented. Useful for fresh installs of a Linux system once implemented properly
 
 The *template generator* and the *install script* can be run as seperate programs as the user desires.
 
@@ -10,3 +10,10 @@ The *template generator* and the *install script* can be run as seperate program
 3. Populate each install template with the appropriate commands to implement the install script
 4. Execute all the install scripts with `install_scripts.sh`
 
+## Usage
+
+Installer template generator
+- `./template_generator.sh [DIRECTORY] [LIST] [TEMPLATE]`
+
+Automated installer script
+- `./install_scripts.sh [DIRECTORY]`
